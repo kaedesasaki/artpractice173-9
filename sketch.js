@@ -15,7 +15,7 @@ function setup(){
   createCanvas(1000, 1000);
   var sprite = createSprite(300, 630);
   sprite.addAnimation("kiki", anim_kiki); 
-  sprite = createSprite(600, 730); 
+  sprite = createSprite(600, 760); 
   sprite.addAnimation("lala", anim_lala);
   sprite = createSprite(800, 200); 
   sprite.addAnimation("star", anim_star);
