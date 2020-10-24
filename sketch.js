@@ -24,10 +24,6 @@ function setup(){
   sprite.addAnimation("kiki", anim_kiki); 
   sprite = createSprite(600, 730); 
   sprite.addAnimation("lala", anim_lala);
-  sprite = createSprite(800, 200); 
-  sprite.addAnimation("star", anim_star);
-  sprite = createSprite(600, 300); 
-  sprite.addAnimation("star2", anim_star2);
 }
 
 function draw(){
