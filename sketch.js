@@ -4,6 +4,7 @@ function preload(){
   anim_kiki = loadAnimation("assets/kiki1.png","assets/kiki4.png");
   anim_lala = loadAnimation("assets/lala1.png","assets/lala4.png");
   anim_star = loadAnimation("assets/star1.png","assets/star4.png");
+  anim_star2 = loadAnimation("assets/star2.png","assets/star4.png");
 	
   cloud = loadImage('cloud.png');
   cloud2 = loadImage('cloud.png');
@@ -20,7 +21,7 @@ function setup(){
   sprite = createSprite(800, 200); 
   sprite.addAnimation("star", anim_star);
   sprite = createSprite(600, 300); 
-  sprite.addAnimation("star", anim_star);
+  sprite.addAnimation("star", anim_star2);
 }
 
 function draw(){
