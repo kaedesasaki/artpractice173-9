@@ -1,9 +1,10 @@
 var anim_kiki, anim_lala;
 
 function preload(){
-  // アニメーションを読み込む
   anim_kiki = loadAnimation("assets/kiki1.png","assets/kiki4.png");
   anim_lala = loadAnimation("assets/lala1.png","assets/lala4.png");
+  anim_star = loadAnimation("assets/star1.png","assets/star4.png");
+	
   cloud = loadImage('cloud.png');
   cloud2 = loadImage('cloud.png');
   cloud3 = loadImage('cloud.png');
@@ -12,10 +13,12 @@ function preload(){
 	
 function setup(){
   createCanvas(1000, 1000);
-  var sprite = createSprite(300, 500); //スプライトの作成
-  sprite.addAnimation("kiki", anim_kiki); //スプライトにアニメーションを加える
-  sprite = createSprite(500, 700); //スプライトの作成
-  sprite.addAnimation("lala", anim_lala); //スプライトにアニメーションを加える
+  var sprite = createSprite(300, 500);
+  sprite.addAnimation("kiki", anim_kiki); 
+  sprite = createSprite(500, 700); 
+  sprite.addAnimation("lala", anim_lala);
+  sprite = createSprite(200, 300); 
+  sprite.addAnimation("star", anim_star);
 }
 
 function draw(){
