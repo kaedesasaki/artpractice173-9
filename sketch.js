@@ -22,7 +22,7 @@ function setup(){
 	
   var sprite = createSprite(300, 630);
   sprite.addAnimation("kiki", anim_kiki); 
-  sprite = createSprite(580, 780); 
+  sprite = createSprite(600, 730); 
   sprite.addAnimation("lala", anim_lala);
   sprite = createSprite(800, 200); 
   sprite.addAnimation("star", anim_star);
