@@ -13,13 +13,13 @@ function preload(){
 	
 function setup(){
   createCanvas(1000, 1000);
-  var sprite = createSprite(300, 600);
+  var sprite = createSprite(300, 630);
   sprite.addAnimation("kiki", anim_kiki); 
-  sprite = createSprite(500, 900); 
+  sprite = createSprite(600, 730); 
   sprite.addAnimation("lala", anim_lala);
   sprite = createSprite(800, 200); 
   sprite.addAnimation("star", anim_star);
-  sprite = createSprite(600, 400); 
+  sprite = createSprite(600, 300); 
   sprite.addAnimation("star", anim_star);
 }
 
